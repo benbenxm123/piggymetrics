@@ -70,7 +70,7 @@ services:
   auth-mongodb:
     environment:
       MONGODB_PASSWORD: $MONGODB_PASSWORD
-    image: sqshq/piggymetrics-mongodb
+    image: benbenxm123/piggymetrics-mongodb
     restart: always
     logging:
       options:
